@@ -5,7 +5,7 @@
 - templates view using thymeleaf
 - spring boot with MySQL
 - spring boot with cassandra
-- spring boot with mongodb
+- spring boot with redis
 
 ## Requirements
 
@@ -14,4 +14,5 @@
 + Maven
 + MySQL
 + MongoDB 
-+ Cassandra B
++ Cassandra DB
++ Test containers api
