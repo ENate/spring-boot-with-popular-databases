@@ -8,7 +8,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="azul-17" project-jdk-type="JavaSDK" />
   <component name="SwUserDefinedSpecifications">
     <option name="specTypeByUrl">
       <map />
@@ -18,12 +18,24 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="986" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
+          <option name="caretOffset" value="25" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/mongodbexample/MongodbExampleApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/cassandra-example/src/test/java/cassandraexample/CassandraExampleApplicationTests.java" />
+          <option name="caretOffset" value="430" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="28" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/springmysqlexample/SpringMysqlExampleApplication.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1224" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1741" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
         </OpenedFileInfo>
       </list>
     </option>
