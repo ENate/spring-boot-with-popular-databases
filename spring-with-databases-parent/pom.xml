@@ -20,6 +20,7 @@
         <module>mongodb-example</module>
         <module>postgres-example</module>
         <module>cassandra-example</module>
+        <module>redis-example</module>
     </modules>
 
     <properties>
