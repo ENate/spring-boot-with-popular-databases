@@ -18,27 +18,19 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="25" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/mongodbexample/MongodbExampleApplication.java" />
+          <option name="caretOffset" value="1005" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/cassandra-example/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="430" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/pom.xml" />
+          <option name="caretOffset" value="162" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/SpringMysqlExampleApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="28" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/springmysqlexample/SpringMysqlExampleApplication.java" />
+          <option name="caretOffset" value="39" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/cassandra-example/src/test/java/com/minejava/cassandraexample/CassandraExampleApplicationTests.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1224" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/pom.xml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="26" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/postgresexample/PostgresExampleApplication.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="756" />
+          <option name="caretOffset" value="1398" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
         </OpenedFileInfo>
       </list>
