@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cassandra-example.iml" filepath="$PROJECT_DIR$/cassandra-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-with-popular-databases.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-with-popular-databases.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-with-databases-parent/spring-cassandra-ex/spring-cassandra-ex.iml" filepath="$PROJECT_DIR$/spring-with-databases-parent/spring-cassandra-ex/spring-cassandra-ex.iml" />
     </modules>

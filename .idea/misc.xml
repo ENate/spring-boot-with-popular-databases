@@ -18,12 +18,24 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="479" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.idea/misc.xml" />
+          <option name="caretOffset" value="630" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="583" />
+          <option name="caretOffset" value="943" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="624" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="430" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/cassandra-example/pom.xml" />
         </OpenedFileInfo>
       </list>
     </option>

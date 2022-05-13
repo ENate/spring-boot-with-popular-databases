@@ -6,8 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-with-databases-parent" />
+        <module name="postgres-example" />
+        <module name="spring-mysql-example" />
+        <module name="mongodb-example" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cassandra-example" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cassandra-example" options="-parameters" />
+      <module name="mongodb-example" options="-parameters" />
+      <module name="postgres-example" options="-parameters" />
+      <module name="spring-mysql-example" options="-parameters" />
+    </option>
   </component>
 </project>
