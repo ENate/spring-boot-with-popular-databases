@@ -18,43 +18,11 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="716" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/mongodb-example/pom.xml" />
+          <option name="caretOffset" value="479" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.idea/misc.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="720" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/thymeleaf-spring-security/pom.xml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1633" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/mysql-example/pom.xml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/mysql-example/src/main/java/com/minejava/mysqlexample/repository/UserRepository.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/mysql-example/src/main/java/com/minejava/mysqlexample/model/User.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="738" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/mysql-example/src/main/java/com/minejava/mysqlexample/controllers/UserController.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/cloud-config-server/src/main/resources/application.properties" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="429" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/cloud-config-server/src/main/java/com/minejava/cloudconfigserver/CloudConfigServerApplication.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1487" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-cassandra-ex/pom.xml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="432" />
+          <option name="caretOffset" value="583" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
         </OpenedFileInfo>
       </list>
