@@ -16,11 +16,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-mysql-example</module>
+        <module>cassandra-example</module>
         <module>mongodb-example</module>
         <module>postgres-example</module>
-        <module>cassandra-example</module>
         <module>redis-example</module>
+        <module>spring-mysql-example</module>
     </modules>
 
     <properties>
