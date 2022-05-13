@@ -18,19 +18,19 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1005" />
+          <option name="caretOffset" value="1209" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/cassandra-example/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="162" />
+          <option name="caretOffset" value="358" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/SpringMysqlExampleApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="39" />
+          <option name="caretOffset" value="96" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/cassandra-example/src/test/java/com/minejava/cassandraexample/CassandraExampleApplicationTests.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1398" />
+          <option name="caretOffset" value="1723" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
         </OpenedFileInfo>
       </list>
