@@ -34,16 +34,20 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="992" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/pom.xml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="1145" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
+          <option name="caretOffset" value="192" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/redis-example/src/test/java/com/minejava/redisexample/RedisExampleApplicationTests.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
           <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/redis-example/pom.xml" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/cassandra-example/src/main/resources/application.yaml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="242" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/test/java/com/minejava/springmysqlexample/SpringMsqlExampleApplicationTests.java" />
         </OpenedFileInfo>
       </list>
     </option>

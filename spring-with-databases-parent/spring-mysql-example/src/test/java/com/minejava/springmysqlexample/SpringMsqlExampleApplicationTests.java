@@ -6,4 +6,6 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 @SpringBootTest
 @Testcontainers
 public class SpringMsqlExampleApplicationTests {
+    // Write test
+
 }
