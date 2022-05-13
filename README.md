@@ -1,14 +1,17 @@
 # Technology
 
-- Spring Boot with Mongo data base
-- Spring boot and Spring security 5
-- Templates view using Thymeleaf
-- Spring Boot with MySQL
+- spring boot with mongodb
+- spring boot and spring security 5
+- templates view using thymeleaf
+- spring boot with MySQL
+- spring boot with cassandra
+- spring boot with mongodb
 
 ## Requirements
 
-+ Java 11+ installed using the suitable instructions.
++ Java 17 installed.
 + Spring boot
 + Maven
 + MySQL
-+ MongoDB
++ MongoDB 
++ Cassandra B
