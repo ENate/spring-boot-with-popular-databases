@@ -3,16 +3,15 @@ package com.minejava.springmysqlexample.payload.response;
 import java.util.List;
 
 public class JwtResponse {
-    private  String token;
+    private String token;
     private String type = "Bearer";
     private Long id;
     private String username;
     private String email;
     private List<String> roles;
 
-    public JwtResponse(String accessToken, String type, Long id, String username, String email, List<String> roles) {
+    public JwtResponse(String accessToken, Long id, String username, String email, List<String> roles) {
         this.token = accessToken;
-        this.type = type;
         this.id = id;
         this.username = username;
         this.email = email;
@@ -31,7 +30,7 @@ public class JwtResponse {
         return type;
     }
 
-    public void setType(String tokenType) {
+    public void setTokenType(String tokenType) {
         this.type = tokenType;
     }
 
@@ -43,14 +42,6 @@ public class JwtResponse {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -59,11 +50,15 @@ public class JwtResponse {
         this.email = email;
     }
 
-    public List<String> getRoles() {
-        return roles;
+    public String getUsername() {
+        return username;
     }
 
-    public void setRoles(List<String> roles) {
-        this.roles = roles;
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public List<String> getRoles() {
+        return roles;
     }
 }
