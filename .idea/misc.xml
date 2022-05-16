@@ -18,16 +18,8 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="2630" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/controllers/AuthController.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="899" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/payload/response/JwtResponse.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="349" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/payload/response/MessageResponse.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="1423" />
@@ -38,16 +30,16 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/security/jwt/AuthTokenFilter.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1898" />
+          <option name="caretOffset" value="1881" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/security/WebSecurityConfig.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="675" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/security/services/UserDetailsImpl.java" />
+          <option name="caretOffset" value="622" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/security/services/UserDetailsServiceImpl.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/security/services/UserDetailsServiceImpl.java" />
+          <option name="caretOffset" value="13" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/resources/application.yaml" />
         </OpenedFileInfo>
       </list>
     </option>
