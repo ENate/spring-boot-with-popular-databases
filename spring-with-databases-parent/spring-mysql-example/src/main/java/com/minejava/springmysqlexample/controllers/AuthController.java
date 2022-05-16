@@ -9,6 +9,7 @@ import com.minejava.springmysqlexample.payload.response.JwtResponse;
 import com.minejava.springmysqlexample.payload.response.MessageResponse;
 import com.minejava.springmysqlexample.repository.RoleRepository;
 import com.minejava.springmysqlexample.repository.UserRepository;
+import com.minejava.springmysqlexample.security.jwt.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
