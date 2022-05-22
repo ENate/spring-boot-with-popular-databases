@@ -9,11 +9,6 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
-  <component name="SwUserDefinedSpecifications">
-    <option name="specTypeByUrl">
-      <map />
-    </option>
-  </component>
   <component name="UnattendedHostPersistenceState">
     <option name="openedFilesInfos">
       <list>
@@ -30,8 +25,20 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/resources/application.yaml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
+          <option name="caretOffset" value="428" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.yml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="187" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/test/java/com/minejava/mongodbexample/MongodbExampleApplicationTests.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1163" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/resources/application.yaml" />
         </OpenedFileInfo>
       </list>
     </option>
