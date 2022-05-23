@@ -4,7 +4,10 @@ image:
 
 tasks:
   - name: run-mysl
-    init: mysql -e "CREATE DATABASE order_service;" && mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root_password';"
+    init: >-
+         mysql -e "CREATE DATABASE order_service;" && 
+         mysql -e "CREATE USER 'newuser' @ 'localhost' IDENTIFIED BY 'my_password';" &&
+         mysql -e "GRANT ALL PRIVILEGES ON order_service.* TO 'newuser'@'localhost';"
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:

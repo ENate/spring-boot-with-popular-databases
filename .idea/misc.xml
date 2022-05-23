@@ -13,35 +13,15 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="622" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/java/com/minejava/springmysqlexample/security/services/UserDetailsServiceImpl.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="366" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/spring-mysql-example/src/main/resources/application.yaml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="428" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.yml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="187" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/test/java/com/minejava/mongodbexample/MongodbExampleApplicationTests.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="1163" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="456" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="195" />
+          <option name="caretOffset" value="158" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/com/minejava/mongodbexample/MongodbExampleApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1044" />
+          <option name="caretOffset" value="234" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/com/minejava/mongodbexample/model/Person.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
@@ -53,8 +33,24 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/resources/application.yaml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
+          <option name="caretOffset" value="379" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/com/minejava/mongodbexample/repository/PersonRepository.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="550" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="388" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.yml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="274" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
         </OpenedFileInfo>
       </list>
     </option>
