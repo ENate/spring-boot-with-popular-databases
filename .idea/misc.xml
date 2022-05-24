@@ -41,16 +41,16 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="388" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.yml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="274" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
+          <option name="caretOffset" value="27" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="388" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.yml" />
         </OpenedFileInfo>
       </list>
     </option>
