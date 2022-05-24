@@ -12,7 +12,6 @@ services:
 
   mongo-express:
     image: mongo-express
-    container_name: postgres
     restart: always
     ports:
       - 8081:8081
@@ -37,6 +36,7 @@ services:
 
   postgres:
     image: postgres:10.5
+    container_name: postgres
     restart: always
     environment:
       - POSTGRES_USER=postgres
