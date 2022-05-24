@@ -12,6 +12,7 @@ services:
 
   mongo-express:
     image: mongo-express
+    container_name: mongo-express
     restart: always
     ports:
       - 8081:8081
@@ -22,6 +23,7 @@ services:
 
   db:
     image: mysql:8.0
+    container_name: mysql
     cap_add:
       - SYS_NICE
     restart: always

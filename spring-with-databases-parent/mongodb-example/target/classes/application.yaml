@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: mongodb-example
+
+  data:
+    mongodb:
+      host: mongodb
+      uri: mongodb://root:example@mongo:27017/person_db
