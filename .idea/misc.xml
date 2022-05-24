@@ -8,7 +8,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="11" project-jdk-type="JavaSDK" />
   <component name="UnattendedHostPersistenceState">
     <option name="openedFilesInfos">
       <list>
@@ -41,16 +41,16 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="388" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.yml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="274" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
         </OpenedFileInfo>
       </list>
     </option>
