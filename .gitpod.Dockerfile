@@ -18,3 +18,5 @@ RUN chmod +x ~/pg/scripts/*
 ENV PATH="$HOME/pg/scripts:$PATH"
 
 USER root
+
+FROM gitpod/workspace-mysql
