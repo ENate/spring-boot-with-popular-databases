@@ -1,10 +1,15 @@
-FROM gitpod/workspace-full:latest
+FROM gitpod/workspace-full
 # Install Redis.
 RUN sudo apt-get update \
  && sudo apt-get install -y \
   redis-server \
  && sudo rm -rf /var/lib/apt/lists/*
 
+
+RUN apt-get update && apt-get install -y \
+        postgresql \
+        postgresql-contrib \
+        && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 USER gitpod
 
