@@ -1,3 +1,6 @@
+server:
+  port: 8087
+
 spring:
   application:
     name: mongodb-example
@@ -7,5 +10,5 @@ spring:
       host: localhost
       database: person_db
       port: 27017
-      username: root
-      password: example
+      username: 
+      password: 

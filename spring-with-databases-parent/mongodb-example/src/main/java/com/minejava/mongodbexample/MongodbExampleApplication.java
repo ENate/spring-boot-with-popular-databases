@@ -2,7 +2,6 @@ package com.minejava.mongodbexample;
 
 import com.minejava.mongodbexample.model.Person;
 import com.minejava.mongodbexample.repository.PersonRepository;
-import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
