@@ -11,9 +11,6 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
     volumes:
       - /workspace/data:/data/db
-    networks:
-      - mongodb_network
-
   mongo-express:
     image: mongo-express
     container_name: mongo-express
