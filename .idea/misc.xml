@@ -32,6 +32,10 @@
           <option name="caretOffset" value="232" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
         </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitpod.Dockerfile" />
+        </OpenedFileInfo>
       </list>
     </option>
   </component>
