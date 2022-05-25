@@ -5,15 +5,6 @@ RUN sudo apt-get update \
   redis-server \
  && sudo rm -rf /var/lib/apt/lists/*
 
- FROM gitpod/workspace-mysql
-
- USER gitpod
-
- FROM gitpod/workspace-postgres
-
- USER gitpod
-
-FROM gitpod/workspace-mongodb
 
 USER gitpod
 
