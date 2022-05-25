@@ -10,18 +10,20 @@ services:
 
   my-mongodb:
     image: mongo:latest
-    container_name: my-mongodb
+    container_name: mongodb
     ports:
       - 27017:27017
     environment:
-      - MONGO_INITDB_DATABASE=test
+      - MONGO_INITDB_DATABASE=person_db
       - MONGO_INITDB_ROOT_USERNAME=admin
       - MONGO_INITDB_ROOT_PASSWORD=admin
     volumes:
       # seeding scripts
-      - ./mongo-entrypoint:/docker-entrypoint-initdb.d
+      - /workspace/data/db:/data/db
       # named volumes
-      - mongodb:/data/db
-      - mongoconfig:/data/configdb
     networks:
-      - mongo_net
+      - shared-net
+
+networks:
+  shared-net:
+    driver: bridge
