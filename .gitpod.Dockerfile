@@ -5,6 +5,8 @@ RUN sudo apt-get update \
   redis-server \
  && sudo rm -rf /var/lib/apt/lists/*
 
+FROM gitpod/workspace-mongodb
 
+USER gitpod
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh &&  sdk install java 17.0.3-zulu && sdk use java 17.0.3-zulu"
