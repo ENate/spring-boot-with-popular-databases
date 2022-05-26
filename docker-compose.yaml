@@ -16,6 +16,7 @@ services:
   mongodb:
     image: mongo:5.0
     container_name: mongodb
+    command: mongo
     ports:
       - 27017:27017
     volumes:
@@ -26,6 +27,8 @@ services:
 
   mysql:
     image: mysql:8
+    container_name: mysql
+    command: mysqld
     ports:
       - 3306:3306
     volumes:
