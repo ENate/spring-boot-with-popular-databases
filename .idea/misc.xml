@@ -21,6 +21,10 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/com/minejava/mongodbexample/MongodbExampleApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/README.md" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
           <option name="caretOffset" value="96" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
         </OpenedFileInfo>
