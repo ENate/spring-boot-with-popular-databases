@@ -23,7 +23,14 @@ public class MongodbExampleApplication implements CommandLineRunner {
 
         // Save copies of person
         personRepository.save(new Person("Marccoonns", "Josternamme"));
+        personRepository.save(new Person("Marccoonns", "Nammer"));
+        personRepository.save(new Person("Marccoonns", "Domber"));
+        personRepository.save(new Person("Marccoonns", "Saxter"));
+
         personRepository.save(new Person("Maghodo", "Cornexsty"));
+        personRepository.save(new Person("Smith", "Smither"));
+        personRepository.save(new Person("Darod", "Smither"));
+        personRepository.save(new Person("Daroch", "Cornexsty"));
 
         System.out.println("Found by FineAll():");
         System.out.println("-----------------------");
@@ -33,8 +40,9 @@ public class MongodbExampleApplication implements CommandLineRunner {
         System.out.println();
         System.out.println("Person found by Firstname: ");
         System.out.println("===============================");
-        System.out.println(personRepository.findByFirstName("Marccoonns"));
-
+        for (Person p: personRepository.findByFirstName("Marccoonns")) {
+            System.out.println(p);
+        }
         System.out.println();
         System.out.println("Person found by Lastname: ");
         System.out.println("===============================");
