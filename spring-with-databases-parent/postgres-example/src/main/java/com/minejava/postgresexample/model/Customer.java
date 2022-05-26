@@ -1,8 +1,15 @@
 package com.minejava.postgresexample.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
 import javax.persistence.*;
 
 @Entity
+@Data
+@NoArgsConstructor
 @Table(name = "customer")
 public class Customer {
     /**
@@ -17,4 +24,9 @@ public class Customer {
 
     @Column(name = "lastName", nullable = false)
     private String lastName;
+
+    public Customer(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 }

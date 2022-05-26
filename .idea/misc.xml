@@ -13,7 +13,7 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="301" />
+          <option name="caretOffset" value="229" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
@@ -29,8 +29,16 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/model/Customer.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
+          <option name="caretOffset" value="319" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/CustomerRepository.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="202" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/com/minejava/mongodbexample/MongodbExampleApplication.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="416" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/PostgresExampleApplication.java" />
         </OpenedFileInfo>
       </list>
     </option>

@@ -6,6 +6,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import java.util.List;
 
 public interface PersonRepository extends MongoRepository<Person, String> {
-     List<Person> findByFirstName(String firstName);
-     List<Person> findByLastName(String lastName);
+     List<Person> findByFirstNames(String firstName);
+     List<Person> findByLastNames(String lastName);
 }
