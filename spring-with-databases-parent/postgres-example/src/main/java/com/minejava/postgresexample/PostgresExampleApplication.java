@@ -1,6 +1,7 @@
 package com.minejava.postgresexample;
 
 import com.minejava.postgresexample.model.Customer;
+import com.minejava.postgresexample.repository.CustomerRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,9 +37,11 @@ public class PostgresExampleApplication implements CommandLineRunner {
         for (Customer c: customerRepository.findByFirstNames("Fisterna")) {
             System.out.println(c);
         }
+        // find By last names
+        for (Customer customer: customerRepository.findByLastNames("Dorstertz")) {
+            System.out.println(customer);
+        }
     }
-
     // save some data
-
 }
 

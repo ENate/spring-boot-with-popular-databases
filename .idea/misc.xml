@@ -25,20 +25,20 @@
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/pom.xml" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="397" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/model/Customer.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="319" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/CustomerRepository.java" />
+          <option name="caretOffset" value="838" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/PostgresExampleApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
           <option name="caretOffset" value="202" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/com/minejava/mongodbexample/MongodbExampleApplication.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="416" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/PostgresExampleApplication.java" />
+          <option name="caretOffset" value="174" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mongodb-example/src/main/java/com/minejava/mongodbexample/model/Person.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="374" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/repository/CustomerRepository.java" />
         </OpenedFileInfo>
       </list>
     </option>
