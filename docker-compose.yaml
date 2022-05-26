@@ -1,29 +1,23 @@
-version: "3"
+version: '3.9'
+
 services:
-#  mongodb:
-#    image: mongo:latest
-#    container_name: mongodb
-#    network_mode: host
-#    restart: always
-#    ports:
-#     - 27017:27017
+  postgres:
+    image: postgres:14-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - ~/apps/postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=S3cret
+      - POSTGRES_USER=citizix_user
+      - POSTGRES_DB=citizix_db
 
   mongodb:
-    image: mongo:latest
-    container_name: mongodb
+    image: mongo:5.0
     ports:
       - 27017:27017
-    environment:
-      - MONGO_INITDB_DATABASE=person_db
-      - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_ROOT_PASSWORD=admin
     volumes:
-      # seeding scripts
-      - /workspace/data/db:/data/db
-      # named volumes
-    networks:
-      - shared-net
-
-networks:
-  shared-net:
-    driver: bridge
+      - ~/apps/mongo:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=citizix
+      - MONGO_INITDB_ROOT_PASSWORD=S3cret
