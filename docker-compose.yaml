@@ -10,8 +10,8 @@ services:
       - ~/apps/postgres:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD:S3cret
-      - POSTGRES_USER=postgres_user
-      - POSTGRES_DB=postgres_db
+      - POSTGRES_USER:postgres_user
+      - POSTGRES_DB:postgres_db
 
   mongodb:
     image: mongo:latest
@@ -48,6 +48,7 @@ services:
 
   mariadb:
     image: mariadb:10.7
+    container_name: mariadb
     ports:
       - 33060:33060
     volumes:
