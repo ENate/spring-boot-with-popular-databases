@@ -38,6 +38,8 @@ public class MongodbExampleApplication implements CommandLineRunner {
         System.out.println();
         System.out.println("Person found by Lastname: ");
         System.out.println("===============================");
-        System.out.println(personRepository.findByFirstName("Cornexsty"));
+        for (Person personx: personRepository.findByLastName("Smither")) {
+            System.out.println(personx);
+        }
     }
 }

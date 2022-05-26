@@ -11,4 +11,5 @@ spring:
       port: 27017
       username: root
       password: example
-      database: testdb
+      database: person_db
+      authentication-database: testdb
