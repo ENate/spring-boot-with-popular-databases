@@ -7,8 +7,8 @@ spring:
 
   data:
     mongodb:
-      host: mongodb
+      host: localhost
       port: 27017
-      username: mongo_user
-      password: mongo_password
-      database: person_db
+      username: root
+      password: example
+      database: testdb
