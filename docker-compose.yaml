@@ -10,8 +10,8 @@ services:
       - ~/apps/postgres:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD=S3cret
-      - POSTGRES_USER=citizix_user
-      - POSTGRES_DB=citizix_db
+      - POSTGRES_USER=postgres_user
+      - POSTGRES_DB=postgres_db
 
   mongodb:
     image: mongo:5.0
@@ -21,5 +21,36 @@ services:
     volumes:
       - ~/apps/mongo:/data/db
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=citizix
-      - MONGO_INITDB_ROOT_PASSWORD=S3cret
+      - MONGO_INITDB_ROOT_USERNAME=mongodb_user
+      - MONGO_INITDB_ROOT_PASSWORD=mongo_password
+
+  mysql:
+    image: mysql:8
+    ports:
+      - 3306:3306
+    volumes:
+      - ~/apps/mysql:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=S3cret
+      - MYSQL_PASSWORD=An0thrS3crt
+      - MYSQL_USER=mysql_user
+      - MYSQL_DATABASE=mysql_db
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: redis
+    ports:
+      - 6379:6379
+    command: redis-server --save 60 1 --requirepass MDNcVb924a --loglevel warning
+
+  mariadb:
+    image: mariadb:10.7
+    ports:
+      - 3306:3306
+    volumes:
+      - ~/apps/mariadb:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=S3cret
+      - MYSQL_PASSWORD=An0thrS3crt
+      - MYSQL_USER=mariadb_user
+      - MYSQL_DATABASE=mariadb_db
