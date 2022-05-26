@@ -9,7 +9,7 @@ services:
     volumes:
       - ~/apps/postgres:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=S3cret
+      - POSTGRES_PASSWORD: S3cret
       - POSTGRES_USER=postgres_user
       - POSTGRES_DB=postgres_db
 
@@ -21,8 +21,8 @@ services:
     volumes:
       - ~/apps/mongo:/data/db
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=example
+      - MONGO_INITDB_ROOT_USERNAME: root
+      - MONGO_INITDB_ROOT_PASSWORD: example
       - MONGO_INITDB_DATABASE: testdb
 
   mysql:
