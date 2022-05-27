@@ -1,7 +1,7 @@
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mysql_db?useSSL=false
+    url: jdbc:mysql://localhost:3306/mysql_db #?useSSL=false
     username: root
     password: S3cret
 

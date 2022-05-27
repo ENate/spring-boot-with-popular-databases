@@ -26,7 +26,7 @@ services:
       - MONGO_INITDB_DATABASE:testdb
 
   mysql:
-    image: mysql:8
+    image: mysql:latest
     container_name: mysql
     command: mysqld
     ports:
