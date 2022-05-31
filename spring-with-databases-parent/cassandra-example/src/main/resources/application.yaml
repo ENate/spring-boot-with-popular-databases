@@ -1,0 +1,21 @@
+spring:
+    data:
+        cassandra:
+            schema-action: CREATE_IF_NOT_EXISTS
+            local-datacenter: datacenter1
+            keyspace-name: spring_cassandra
+        request:
+            timeout: 10s
+        connection:
+            connect-timeout: 10s
+        init-query-timeout: 10s
+
+
+     
+    
+
+
+#data.cassandra.schema-action=CREATE_IF_NOT_EXISTS
+#spring.data.cassandra.request.timeout=10s
+#spring.data.cassandra.connection.connect-timeout=10s
+#spring.data.cassandra.connection.init-query-timeout=10s
