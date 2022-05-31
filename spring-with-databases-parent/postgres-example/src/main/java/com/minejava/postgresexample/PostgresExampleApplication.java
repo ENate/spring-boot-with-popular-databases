@@ -34,11 +34,11 @@ public class PostgresExampleApplication implements CommandLineRunner {
         System.out.println(customerRepository.findAll());
 
         // find by fist names:
-        for (Customer c: customerRepository.findByFirstNames("Fisterna")) {
+        for (Customer c: customerRepository.findByFirstName("Fisterna")) {
             System.out.println(c);
         }
         // find By last names
-        for (Customer customer: customerRepository.findByLastNames("Dorstertz")) {
+        for (Customer customer: customerRepository.findByLastName("Dorstertz")) {
             System.out.println(customer);
         }
     }
