@@ -3,7 +3,6 @@ package com.minejava.postgresexample;
 import com.minejava.postgresexample.model.Customer;
 import com.minejava.postgresexample.repository.CustomerRepository;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

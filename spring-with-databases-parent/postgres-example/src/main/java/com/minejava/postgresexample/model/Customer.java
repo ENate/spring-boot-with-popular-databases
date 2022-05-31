@@ -1,12 +1,9 @@
 package com.minejava.postgresexample.model;
 
-import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @Entity
-@Data
 @NoArgsConstructor
 @Table(name = "customer")
 public class Customer {
@@ -14,7 +11,7 @@ public class Customer {
      * model calss for the class fields
      */
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
     @Column(name = "first_name", nullable = false)
@@ -27,4 +24,36 @@ public class Customer {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer [firstName=" + firstName + ", id=" + id + ", lastName=" + lastName + "]";
+    }
+    
+
+    
 }
