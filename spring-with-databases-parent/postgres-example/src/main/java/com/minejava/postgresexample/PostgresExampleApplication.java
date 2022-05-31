@@ -30,13 +30,22 @@ public class PostgresExampleApplication implements CommandLineRunner {
         customerRepository.save(new Customer("Masdoren", "Dorstertz"));
 
         // Print all
-        System.out.println(customerRepository.findAll());
+        System.out.println("Find all customers using jpa findAll()");
+        System.out.println("==========================================");
+        for (Customer customered: customerRepository.findAll()) {
+          System.out.println(customered);
+        }
+
 
         // find by fist names:
-        for (Customer c: customerRepository.findByFirstName("Fisterna")) {
-            System.out.println(c);
+        System.out.println("Find all customers using jpa findByFirstNames()");
+        System.out.println("==========================================");
+        for (Customer c: customerRepository.findByFirstName("Madoren")) {
+            System.out.println(c); 
         }
         // find By last names
+        System.out.println("Find all customers using jpa findByLastNames()");
+        System.out.println("==========================================");
         for (Customer customer: customerRepository.findByLastName("Dorstertz")) {
             System.out.println(customer);
         }

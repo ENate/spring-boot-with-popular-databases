@@ -1,10 +1,8 @@
 package com.minejava.postgresexample.model;
 
-import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@NoArgsConstructor
 @Table(name = "customer")
 public class Customer {
     /**
@@ -17,8 +15,13 @@ public class Customer {
     @Column(name = "first_name", nullable = false)
     private String firstName;
 
-    @Column(name = "lastName", nullable = false)
+    @Column(name = "last_name", nullable = false)
     private String lastName;
+    
+
+    public Customer() {
+
+    }
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;

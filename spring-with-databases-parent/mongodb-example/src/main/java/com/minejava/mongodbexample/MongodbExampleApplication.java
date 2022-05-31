@@ -32,7 +32,7 @@ public class MongodbExampleApplication implements CommandLineRunner {
         personRepository.save(new Person("Darod", "Smither"));
         personRepository.save(new Person("Daroch", "Cornexsty"));
 
-        System.out.println("Found by FineAll():");
+        System.out.println("Found by FindAll():");
         System.out.println("-----------------------");
         for (Person person: personRepository.findAll()) {
             System.out.println(person);
