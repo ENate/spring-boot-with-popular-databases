@@ -21,6 +21,7 @@
         <module>postgres-example</module>
         <module>redis-example</module>
         <module>spring-mysql-example</module>
+        <module>mariadb-example</module>
     </modules>
 
     <properties>

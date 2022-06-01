@@ -12,12 +12,14 @@
         <module name="spring-mysql-example" />
         <module name="mongodb-example" />
         <module name="redis-example" />
+        <module name="mariadb-example" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cassandra-example" options="-parameters" />
+      <module name="mariadb-example" options="-parameters" />
       <module name="mongodb-example" options="-parameters" />
       <module name="postgres-example" options="-parameters" />
       <module name="redis-example" options="-parameters" />

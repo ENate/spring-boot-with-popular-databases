@@ -13,14 +13,6 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="229" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/docker-compose.yaml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="97" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/resources/application.yaml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="1062" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/pom.xml" />
         </OpenedFileInfo>
@@ -39,6 +31,26 @@
         <OpenedFileInfo>
           <option name="caretOffset" value="374" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/postgres-example/src/main/java/com/minejava/postgresexample/repository/CustomerRepository.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="811" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mariadb-example/pom.xml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="300" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mariadb-example/src/main/java/com/minejava/mariadbexample/MariaDBExampleApplication.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mariadb-example/src/main/resources/application.yaml" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="82" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mariadb-example/src/test/java/com/minejava/mariadbexample/MariaDBExampleApplicationTests.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/spring-with-databases-parent/mariadb-example/src/main/java/com/minejava/mariadbexample/model/Customer.java" />
         </OpenedFileInfo>
       </list>
     </option>
