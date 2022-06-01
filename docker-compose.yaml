@@ -71,8 +71,8 @@ services:
     volumes:
       - ./out/cassandra_data:/var/lib/cassandra
 
-  spring_cassandra:
-    container_name: spring_cassandra
+  spring_cassandra_x:
+    container_name: spring_cassandra_x
     image: cassandra:latest
     depends_on:
       - cassandra

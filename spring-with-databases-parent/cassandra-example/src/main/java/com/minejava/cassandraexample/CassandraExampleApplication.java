@@ -29,14 +29,22 @@ public class CassandraExampleApplication {
       
       Vet john = new Vet(UUID.randomUUID(), "John", "Doe", new HashSet<>(Arrays.asList("surgery")));
       Vet jane = new Vet(UUID.randomUUID(), "Jane", "Doe", new HashSet<>(Arrays.asList("radiology, surgery")));
+      Vet saimoner = new Vet(UUID.randomUUID(), "Saimoner", "Daloe", new HashSet<>(Arrays.asList("Sasologist")));
       
       Vet savedJohn = vetRepository.save(john);
       Vet savedJane = vetRepository.save(jane);
+      Vet savedSaimoner = vetRepository.save(saimoner);
 
       vetRepository.findAll()
         .forEach(v -> LOG.info("Vet: {}", v.getFirstName()));
       
       vetRepository.findById(savedJohn.getUuid())
+        .ifPresent(v -> LOG.info("Vet by id: {}", v.getFirstName()));
+      
+      vetRepository.findById(savedJane.getUuid())
+        .ifPresent(v -> LOG.info("Vet by id: {}", v.getFirstName()));
+
+      vetRepository.findById(savedSaimoner.getUuid())
         .ifPresent(v -> LOG.info("Vet by id: {}", v.getFirstName()));
     };
   }
