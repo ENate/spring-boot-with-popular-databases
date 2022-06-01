@@ -58,3 +58,13 @@ services:
       - MYSQL_PASSWORD=An0thrS3crt
       - MYSQL_USER=mariadb_user
       - MYSQL_DATABASE=mariadb_db
+  
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra
+    ports:
+      - 9042:9042
+    volumes:
+      - ~/apps/cassandra:/var/lib/cassandra
+    environment:
+      - CASSANDRA_CLUSTER_NAME=citizix
