@@ -53,11 +53,12 @@ services:
       - 33060:33060
     volumes:
       - ~/apps/mariadb:/var/lib/mysql
+      - ~/var/docker/mariadb/conf:/etc/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=S3cret
-      - MYSQL_PASSWORD=An0thrS3crt
-      - MYSQL_USER=mariadb_user
-      - MYSQL_DATABASE=mariadb_db
+        MYSQL_ROOT_PASSWORD: S3cret
+        MYSQL_PASSWORD: An0thrS3crt
+        MYSQL_USER: mariadb_user
+        MYSQL_DATABASE: mariadb_db
   
   cassandra:
     image: cassandra:latest

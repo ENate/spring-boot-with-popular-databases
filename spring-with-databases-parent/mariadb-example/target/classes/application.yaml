@@ -5,7 +5,7 @@ spring:
       ddl-auto: create-drop
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:33060/mariadb_db
+    url: jdbc:mariadb://localhost:33060/mariadb_db_db
     username: mariadb_user
     password: An0thrS3crt
 
