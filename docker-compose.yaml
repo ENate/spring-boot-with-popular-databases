@@ -63,8 +63,19 @@ services:
     image: cassandra:latest
     container_name: cassandra
     ports:
-      - 9042:9042
-    volumes:
-      - ~/apps/cassandra:/var/lib/cassandra
+      - "9042:9042"
     environment:
-      - CASSANDRA_CLUSTER_NAME=citizix
+      - "MAX_HEAP_SIZE=256M"
+      - "HEAP_NEWSIZE=128M"
+    restart: always
+    volumes:
+      - ./out/cassandra_data:/var/lib/cassandra
+
+  spring_cassandra:
+    container_name: spring_cassandra
+    image: cassandra:latest
+    depends_on:
+      - cassandra
+    volumes:
+      - ./src/main/resources/cassandra_schema.cql:/schema.cql 
+    command: /bin/bash -c "sleep 60 && echo loading cassandra keyspace && cqlsh cassandra -f /schema.cql"
