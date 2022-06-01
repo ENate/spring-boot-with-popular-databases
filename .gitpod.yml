@@ -7,7 +7,7 @@ tasks:
     command: echo 'start script'
   
   - name: run-docker-compose
-    init: docker-compose up
+    before: docker-compose up
   - name: cql_cassandra
     init: docker exec -it cassandra cqlsh
     # CREATE KEYSPACE spring_cassandra WITH replication = {'class' : 'SimpleStrategy', 'replication_factor' : 1};
