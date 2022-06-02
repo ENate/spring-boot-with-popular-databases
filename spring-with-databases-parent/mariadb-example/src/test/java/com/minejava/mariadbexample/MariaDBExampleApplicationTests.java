@@ -20,9 +20,9 @@ public class MariaDBExampleApplicationTests {
     private CustomerRepository customerRepository;
     @Before
     public void setUp() {
-        Customer customer1 = new Customer("Another", "Maker", 2);
+        Customer customer1 = new Customer("Another", "Maker", 12);
         Customer customer2 = new Customer("Download", "Dears", 12);
-        Customer customer3 = new Customer("Joker", "Farmer", 21);
+        Customer customer3 = new Customer("Joker", "Farmer", 38);
         Customer customer4 = new Customer("Smart", "Mart Dane", 112);
         //save user, verify has ID value after save
         assert(customer1.getId() == 0);
@@ -50,7 +50,7 @@ public class MariaDBExampleApplicationTests {
                 System.out.println("We reached 2!" + p);
             }
         }
-        assertEquals(count, 2);
+        assertEquals(count, 12);
     }
 
 }
