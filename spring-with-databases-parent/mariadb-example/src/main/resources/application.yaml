@@ -1,8 +1,10 @@
 ## MariaDB
+server:
+    port: 8081
 spring:
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
     
     generate-ddl: true
   datasource:
