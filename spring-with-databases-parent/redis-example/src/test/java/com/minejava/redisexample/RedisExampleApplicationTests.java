@@ -28,8 +28,8 @@ public class RedisExampleApplicationTests {
 
     // Define container class
     @Container
-    public GenericContainer<?> redis = new GenericContainer<>(DockerImageName.parse("redis:5.0.3-alpine"));
-        .withExposedPort(6379);
+    public GenericContainer<?> redis = new GenericContainer<>(DockerImageName.parse("redis:5.0.3-alpine"))
+        .withExposedPorts(6379);
 
     @BeforeEach
     public void setUp() {
