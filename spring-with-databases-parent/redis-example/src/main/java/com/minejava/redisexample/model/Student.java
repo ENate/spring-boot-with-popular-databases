@@ -13,7 +13,7 @@ public class Student implements Serializable {
     private static final long serialVersionUID = 1603714798906422731L;
     private String id;
     private String name;
-    private String department;
+    private Gender department;
     private int grade;
 
 
@@ -24,10 +24,10 @@ public class Student implements Serializable {
         MALE, FEMAILE
     }
 
-    public Student(String id, String name, String department, int grade) {
+    public Student(String id, String name, Gender gender, int grade) {
         this.id = id;
         this.name = name;
-        this.department = department;
+        this.department = gender;
         this.grade = grade;
     }
 
@@ -52,12 +52,12 @@ public class Student implements Serializable {
     }
 
 
-    public String getDepartment() {
+    public Gender getGender() {
         return department;
     }
 
 
-    public void setDepartment(String department) {
+    public void setDepartment(Gender department) {
         this.department = department;
     }
 
