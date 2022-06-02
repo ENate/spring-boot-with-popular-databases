@@ -2,7 +2,9 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
+    
+    generate-ddl: true
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://localhost:33060/mariadb_db
@@ -11,5 +13,5 @@ spring:
   #jpa:
   #  hibernate:
   #    ddl-auto: update
-  database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  # database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
