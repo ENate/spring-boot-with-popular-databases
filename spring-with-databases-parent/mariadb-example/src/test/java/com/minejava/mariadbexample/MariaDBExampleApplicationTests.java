@@ -46,6 +46,9 @@ public class MariaDBExampleApplicationTests {
         int count = 0;
         for(Customer p : customers){
             count++;
+            if (count == 2) {
+                System.out.println("We reached 2!" + p);
+            }
         }
         assertEquals(count, 2);
     }

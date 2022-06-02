@@ -41,5 +41,6 @@ public class MariaDBExampleApplication implements CommandLineRunner {
         for (Customer person: customerRepository.findAll()) {
             System.out.println(person);
         }
+        LOG.info("-------------------END-------------");
     }
 }
