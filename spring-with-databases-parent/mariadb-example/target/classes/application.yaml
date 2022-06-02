@@ -2,10 +2,14 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:33060/mariadb_db_db
+    url: jdbc:mariadb://localhost:33060/mariadb_db
     username: mariadb_user
     password: An0thrS3crt
+  #jpa:
+  #  hibernate:
+  #    ddl-auto: update
+  database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
 
