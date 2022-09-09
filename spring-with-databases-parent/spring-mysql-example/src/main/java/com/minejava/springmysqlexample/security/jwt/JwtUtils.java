@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 @Component
@@ -21,11 +24,14 @@ public class JwtUtils {
     private String jwtExpirationMs;
 
     public String generateJwtToken(Authentication authentication) {
+        Instant issuedAt = Instant.now().truncatedTo(ChronoUnit.SECONDS);
+        Instant expiration = issuedAt.plus(3, ChronoUnit.MINUTES);
         UserDetailsImpl userPrincipal = (UserDetailsImpl) authentication.getPrincipal();
          return Jwts.builder()
                  .setSubject((userPrincipal.getUsername()))
-                 .setIssuedAt(new Date())
-                 .setExpiration(new Date((new Date()).getTime() + jwtExpirationMs))
+                 .setIssuedAt(Date.from(issuedAt))
+                 .setExpiration(Date.from(expiration))
+                 //.setExpiration(new Date((new Date()).getTime() + jwtExpirationMs))
                  .signWith(SignatureAlgorithm.HS512, jwtSecret)
                  .compact();
     }

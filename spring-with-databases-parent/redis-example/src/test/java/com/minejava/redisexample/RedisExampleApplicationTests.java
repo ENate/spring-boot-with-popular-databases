@@ -21,7 +21,7 @@ import com.minejava.redisexample.queue.RedisMessageSubscriber;
 @Testcontainers
 public class RedisExampleApplicationTests {
 
-    private RedisExampleApplication backend;
+    // private RedisExampleApplication backend;
 
     @Autowired
     private RedisMessagePublisher publisher;
@@ -33,12 +33,12 @@ public class RedisExampleApplicationTests {
 
     @BeforeEach
     public void setUp() {
-        String address = redis.getHost();
-        Integer port = redis.getFirstMappedPort();
+        // String address = redis.getHost();
+        // Integer port = redis.getFirstMappedPort();
 
-        // Add a port for redis irrespective of where it 
+        // Add a port for redis irrespective of where it
         // running
-        backend = new RedisExampleApplication();
+        //backend = new RedisExampleApplication();
     }
 
     @Test

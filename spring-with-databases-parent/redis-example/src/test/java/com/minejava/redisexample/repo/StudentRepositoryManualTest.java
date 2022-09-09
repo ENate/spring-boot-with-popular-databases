@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNull;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.BeforeClass;
+//import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import com.minejava.redisexample.model.Student;
 import com.minejava.redisexample.repository.StudentRepository;
 
 public class StudentRepositoryManualTest {
-    
+
     @Autowired
     private StudentRepository studentRepository;
 
@@ -26,18 +26,18 @@ public class StudentRepositoryManualTest {
     @Container
     public GenericContainer<?> redis = new GenericContainer<>(DockerImageName.parse("redis:5.0.3-alpine"))
             .withExposedPorts(6379);
-    
+
         // }
-    
+
     @BeforeEach
     public void setUp() {
-        String address = redis.getHost();
-        Integer port = redis.getFirstMappedPort();
-    
+        //String address = redis.getHost();
+        //Integer port = redis.getFirstMappedPort();
+
         // Now we have an address and port for Redis, no matter where it is running
         // underTest = new RedisBackedCache(address, port);
         }
-    
+
         @Test
         public void whenSavingStudent_thenAvailableOnRetrieval() throws Exception {
             final Student student = new Student("Eng2015001", "John Doe", Student.Gender.MALE, 1);
@@ -45,7 +45,7 @@ public class StudentRepositoryManualTest {
             final Student retrievedStudent = studentRepository.findById(student.getId()).get();
             assertEquals(student.getId(), retrievedStudent.getId());
         }
-    
+
         @Test
         public void whenUpdatingStudent_thenAvailableOnRetrieval() throws Exception {
             final Student student = new Student("Eng2015001", "John Doe", Student.Gender.MALE, 1);
@@ -55,7 +55,7 @@ public class StudentRepositoryManualTest {
             final Student retrievedStudent = studentRepository.findById(student.getId()).get();
             assertEquals(student.getName(), retrievedStudent.getName());
         }
-    
+
         @Test
         public void whenSavingStudents_thenAllShouldAvailableOnRetrieval() throws Exception {
             final Student engStudent = new Student("Eng2015001", "John Doe", Student.Gender.MALE, 1);
@@ -66,7 +66,7 @@ public class StudentRepositoryManualTest {
             studentRepository.findAll().forEach(students::add);
             assertEquals(students.size(), 2);
         }
-    
+
         @Test
         public void whenDeletingStudent_thenNotAvailableOnRetrieval() throws Exception {
             final Student student = new Student("Eng2015001", "John Doe", Student.Gender.MALE, 1);

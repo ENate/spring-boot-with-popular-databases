@@ -22,6 +22,7 @@ public class PostgresExampleApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         customerRepository.deleteAll();
+        log.info("Adding new customer data");
 
         // Add some data
         customerRepository.save(new Customer("Masdoren", "Dorstertz"));
@@ -41,7 +42,7 @@ public class PostgresExampleApplication implements CommandLineRunner {
         System.out.println("Find all customers using jpa findByFirstNames()");
         System.out.println("==========================================");
         for (Customer c: customerRepository.findByFirstName("Madoren")) {
-            System.out.println(c); 
+            System.out.println(c);
         }
         // find By last names
         System.out.println("Find all customers using jpa findByLastNames()");
