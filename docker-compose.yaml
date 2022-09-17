@@ -1,82 +1,82 @@
 version: '3.9'
 
 services:
-  postgres:
-    image: postgres:14-alpine
-    container_name: postgres
-    ports:
-      - 5432:5432
-    volumes:
-      - ~/apps/postgres:/var/lib/postgresql/data
-    environment:
-      POSTGRES_PASSWORD: S3cret
-      POSTGRES_USER: postgres_user
-      POSTGRES_DB: postgres_db
+    postgres:
+        image: postgres:14-alpine
+        container_name: postgres
+        ports:
+            - 5432:5432
+        volumes:
+            - ~/apps/postgres:/var/lib/postgresql/data
+        environment:
+            POSTGRES_PASSWORD: S3cret
+            POSTGRES_USER: postgres_user
+            POSTGRES_DB: postgres_db
 
-  mongodb:
-    image: mongo:latest
-    container_name: mongodb
-    ports:
-      - 27017:27017
-    volumes:
-      - ~/apps/mongo:/data/db
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME:root
-      - MONGO_INITDB_ROOT_PASSWORD:example
-      - MONGO_INITDB_DATABASE:testdb
+    mongodb:
+        image: mongo:latest
+        container_name: mongodb
+        ports:
+            - 27017:27017
+        volumes:
+            - ~/apps/mongo:/data/db
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME:root
+            - MONGO_INITDB_ROOT_PASSWORD:example
+            - MONGO_INITDB_DATABASE:testdb
 
-  mysql:
-    image: mysql:latest
-    container_name: mysql
-    command: mysqld
-    ports:
-      - 3306:3306
-    volumes:
-      - ~/apps/mysql:/var/lib/mysql
-    environment:
-      - MYSQL_ROOT_PASSWORD=S3cret
-      - MYSQL_PASSWORD=An0thrS3crt
-      - MYSQL_USER=mysql_user
-      - MYSQL_DATABASE=mysql_db
+    mysql:
+        image: mysql:latest
+        container_name: mysql
+        command: mysqld
+        ports:
+            - 3306:3306
+        volumes:
+            - ~/apps/mysql:/var/lib/mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=S3cret
+            - MYSQL_PASSWORD=An0thrS3crt
+            - MYSQL_USER=mysql_user
+            - MYSQL_DATABASE=mysql_db
 
-  redis:
-    image: redis:6.2-alpine
-    container_name: redis
-    ports:
-      - 6379:6379
-    command: redis-server --save 60 1 --requirepass MDNcVb924a --loglevel warning
+    redis:
+        image: redis:6.2-alpine
+        container_name: redis
+        ports:
+            - 6379:6379
+        command: redis-server --save 60 1 --requirepass MDNcVb924a --loglevel warning
 
-  mariadb:
-    image: mariadb:10.7
-    container_name: mariadb
-    ports:
-      - 33060:3306
-    volumes:
-      - ~/apps/mariadb:/var/lib/mysql
-      - ~/var/docker/mariadb/conf:/etc/mysql
-    environment:
-        MYSQL_ROOT_PASSWORD: S3cret
-        MYSQL_PASSWORD: "An0thrS3crt"
-        MYSQL_USER: mariadb_user
-        MYSQL_DATABASE: mariadb_db
-  
-  cassandra:
-    image: cassandra:latest
-    container_name: cassandra
-    ports:
-      - "9042:9042"
-    environment:
-      - "MAX_HEAP_SIZE=256M"
-      - "HEAP_NEWSIZE=128M"
-    restart: always
-    volumes:
-      - ./out/cassandra_data:/var/lib/cassandra
+    mariadb:
+        image: mariadb:10.7
+        container_name: mariadb
+        ports:
+            - 33060:3306
+        volumes:
+            - ~/apps/mariadb:/var/lib/mysql
+            - ~/var/docker/mariadb/conf:/etc/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: S3cret
+            MYSQL_PASSWORD: "An0thrS3crt"
+            MYSQL_USER: mariadb_user
+            MYSQL_DATABASE: mariadb_db
 
-  spring_cassandra_x:
-    container_name: spring_cassandra_x
-    image: cassandra:latest
-    depends_on:
-      - cassandra
-    volumes:
-      - ./src/main/resources/cassandra_schema.cql:/schema.cql 
-    command: /bin/bash -c "sleep 60 && echo loading cassandra keyspace && cqlsh cassandra -f /schema.cql"
+    # cassandra:
+    #     image: cassandra:latest
+    #     container_name: cassandra
+    #     ports:
+    #         - "9042:9042"
+    #     environment:
+    #         - "MAX_HEAP_SIZE=256M"
+    #         - "HEAP_NEWSIZE=128M"
+    #     restart: always
+    #     volumes:
+    #         - ./out/cassandra_data:/var/lib/cassandra
+
+    # spring_cassandra_x:
+    #     container_name: spring_cassandra_x
+    #     image: cassandra:latest
+    #     depends_on:
+    #         - cassandra
+    #     volumes:
+    #         - ./src/main/resources/cassandra_schema.cql:/schema.cql
+    #     command: /bin/bash -c "sleep 60 && echo loading cassandra keyspace && cqlsh cassandra -f /schema.cql"
