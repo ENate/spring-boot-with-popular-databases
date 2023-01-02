@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseCookie;
@@ -33,6 +31,8 @@ import com.minejava.mongodbexample.repository.RoleRepository;
 import com.minejava.mongodbexample.repository.UserRepository;
 import com.minejava.mongodbexample.security.jwt.JwtUtils;
 import com.minejava.mongodbexample.security.services.UserDetailsImpl;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/auth")
